@@ -15,8 +15,8 @@ h1, h2 {
 
 .gallery { 
     position: relative; 
-    width: 250px; 
-    height: 200px; 
+    width: 450px; 
+    height: 400px; 
     margin-bottom: 50px;
 }
 
@@ -49,9 +49,21 @@ h1, h2 {
     background: green;
 }
 
+.cloud {
+    position: absolute;
+    top: 60px; 
+    right: 50px; 
+    width: 60px; 
+    height: 20px; 
+    background: whitesmoke;
+    border-radius: 50%;
+}
+
+
+
 form {
     margin-top: 25px;
-    background-color: #ccc;
+    background-color: skyblue;
     padding: 20px; 
     border-radius: 15px;
     box-shadow: 0 0 10px rbga(0, 0, 0, 0.2);

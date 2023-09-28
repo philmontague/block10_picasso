@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@400;700&display=swap');
+
+
+
+
 body { 
     margin: 0; 
     padding: 0; 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Shantell Sans', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -66,4 +71,10 @@ form {
     padding: 20px; 
     border-radius: 15px;
     box-shadow: 0 0 10px rbga(0, 0, 0, 0.2);
+}
+
+.submit { 
+    background-color: #333;
+    color: #fff; 
+    border-radius: 20%;
 }
